@@ -1,4 +1,4 @@
-# Python .gitignore Updater
+# gitignore updater
 
 A flexible tool to update your `.gitignore` file with common patterns for various programming languages and environments.
 
