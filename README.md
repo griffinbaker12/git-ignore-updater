@@ -71,4 +71,4 @@ Please feel free to open a PR to add a cli argument for any patterns that you ca
 
 ## License
 
-MIT License
+[MIT License](LICENSE)
