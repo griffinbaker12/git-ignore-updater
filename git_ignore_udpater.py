@@ -43,10 +43,8 @@ def update_gitignore(patterns: List[Pattern]) -> None:
 
     with open(GIT_IGNORE_PATH, "a") as file:
         for pattern, config in patterns:
-            header = (
-                f"{'\n' if existing_content else ""}## {pattern.capitalize()} Config"
-            )
-            if header not in existing_content:
+            if (_header := f"## {pattern.capitalize()} Config") not in existing_content:
+                header = f"{'\n' if existing_content else ""}{_header}"
                 file.write(header + "\n")
             for line in config:
                 if line not in existing_content:

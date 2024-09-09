@@ -1,11 +1,10 @@
 # Python .gitignore Updater
 
-A flexible tool to update your .gitignore file with common patterns for various programming languages and environments.
+A flexible tool to update your `.gitignore` file with common patterns for various programming languages and environments.
 
 ## Features
 
-- Supports multiple programming languages and environments
-- Easy to add new pattern sets
+- Easily extendable to support new pattern sets
 - Command-line interface with flags for each supported pattern set
 - Automatically creates .gitignore file if it doesn't exist
 - Adds patterns without duplicating existing entries
@@ -30,7 +29,7 @@ Add this line to your shell configuration file (e.g., .bashrc, .zshrc):
 alias update-gitignore="python3 /path/to/gitignore_updater.py"
 ```
 
-Replace /path/to/gitignore_updater.py with the actual path where you saved the script.
+Replace `/path/to/gitignore_updater.py` with the actual path where you saved the script.
 
 ## Usage
 

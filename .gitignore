@@ -15,7 +15,3 @@ __pycache__/
 
 # Unit test
 .pytest_cache/
-
-## Node Config
-# Random Shit
-/hey
