@@ -17,8 +17,8 @@ To use this tool, you need both the main script and the patterns folder. To get 
 
 ```bash
 git clone https://github.com/griffinbaker12/git-ignore-updater.git
-cd gitignore-updater
-chmod +x gitignore_updater.py
+cd git-ignore-updater
+chmod +x git_ignore_updater.py
 ```
 
 2) Set up an alias (optional, but recommended)
