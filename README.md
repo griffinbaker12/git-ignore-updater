@@ -16,7 +16,7 @@ To use this tool, you need both the main script and the patterns folder. To get 
 1) Clone the repo
 
 ```bash
-git clone https://github.com/griffinbaker12/gitignore-updater.git
+git clone https://github.com/griffinbaker12/git-ignore-updater.git
 cd gitignore-updater
 chmod +x gitignore_updater.py
 ```
@@ -26,17 +26,17 @@ chmod +x gitignore_updater.py
 Add this line to your shell configuration file (e.g., .bashrc, .zshrc):
 
 ```bash
-alias update-gitignore="python3 /path/to/git-ignore_updater.py"
+alias update-gitignore="python3 /path/to/git_ignore_updater.py"
 ```
 
-Replace `/path/to/gitignore_updater.py` with the actual path where you saved the script.
+Replace `/path/to/git_ignore_updater.py` with the actual path where you saved the script.
 
 ## Usage
 
 Run the script in your project directory:
 
 ```bash
-python3 /path/to/gitignore_updater.py [OPTIONS]
+python3 /path/to/git_ignore_updater.py [OPTIONS]
 ```
 
 Or, if you set up an alias:
@@ -53,7 +53,7 @@ update-gitignore [OPTIONS]
 You can combine multiple options:
 
 ```bash
-python3 gitignore_updater.py --python --your-custom-option
+python3 git_ignore_updater.py --python --your-custom-option
 ```
 
 ## Adding New Patterns
