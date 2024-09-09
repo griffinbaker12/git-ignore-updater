@@ -26,7 +26,7 @@ chmod +x gitignore_updater.py
 Add this line to your shell configuration file (e.g., .bashrc, .zshrc):
 
 ```bash
-alias update-gitignore="python3 /path/to/gitignore_updater.py"
+alias update-gitignore="python3 /path/to/git-ignore_updater.py"
 ```
 
 Replace `/path/to/gitignore_updater.py` with the actual path where you saved the script.
