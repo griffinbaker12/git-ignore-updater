@@ -26,7 +26,7 @@ chmod +x git_ignore_updater.py
 Add this line to your shell configuration file (e.g., .bashrc, .zshrc):
 
 ```bash
-alias update-gitignore="python3 /path/to/git_ignore_updater.py"
+alias update-gitignore="./path/to/git_ignore_updater.py"
 ```
 
 Replace `/path/to/git_ignore_updater.py` with the actual path where you saved the script.
@@ -36,7 +36,7 @@ Replace `/path/to/git_ignore_updater.py` with the actual path where you saved th
 Run the script in your project directory:
 
 ```bash
-python3 /path/to/git_ignore_updater.py [OPTIONS]
+./path/to/git_ignore_updater.py [OPTIONS]
 ```
 
 Or, if you set up an alias:
@@ -53,7 +53,7 @@ update-gitignore [OPTIONS]
 You can combine multiple options:
 
 ```bash
-python3 git_ignore_updater.py --python --your-custom-option
+./git_ignore_updater.py --python --your-custom-option
 ```
 
 ## Adding New Patterns
